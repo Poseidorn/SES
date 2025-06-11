@@ -138,7 +138,7 @@
               "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
+              "isWebApplication": true,
               "privilegeLevel": "",
               "threats": [
                 {
@@ -189,6 +189,13 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -756,12 +763,6 @@
               "cell": "f8b820b8-e9c2-4e36-8fe1-f5c3bfa1015d",
               "port": "cd29d58e-1714-4dc8-9d6b-1c11e28dbd30"
             },
-            "vertices": [
-              {
-                "x": 364,
-                "y": 100
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -771,7 +772,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 364,
+                "y": 100
+              }
+            ]
           }
         ],
         "description": "Dataflow of login"
