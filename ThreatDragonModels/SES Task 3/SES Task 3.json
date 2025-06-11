@@ -189,13 +189,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -348,19 +341,6 @@
                   "score": ""
                 },
                 {
-                  "id": "58ee470e-34ea-491b-9df7-e838b293e2bd",
-                  "title": "Spamming",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Elevation of privilege",
-                  "description": "See OWASP Automated Threat #17:\nStoring malicious such as malware, Iframe distribution, photographs & videos, advertisements, referrer spam and tracking/surveillance code",
-                  "mitigation": "Defences include detecting embedded malicious code, controling interaction frequency and enforcement of a single unique action",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": ""
-                },
-                {
                   "id": "80f26895-da51-49ab-95ea-5c119c736de5",
                   "title": "Credential cracking",
                   "status": "Open",
@@ -371,19 +351,6 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 10,
-                  "score": ""
-                },
-                {
-                  "id": "8b533821-e815-44b8-9655-8f1d464655c8",
-                  "title": "Account creation",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Elevation of privilege",
-                  "description": "See OWASP Automated Threat #19:\nBulk account creation, and sometimes profile population, by using the application’s account signup processes",
-                  "mitigation": "Defences include control of interaction frequency, enforcement of a single unique a action and enforcement of behavioral workflow",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 11,
                   "score": ""
                 },
                 {
@@ -762,16 +729,6 @@
             "target": {
               "cell": "f8b820b8-e9c2-4e36-8fe1-f5c3bfa1015d",
               "port": "cd29d58e-1714-4dc8-9d6b-1c11e28dbd30"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             },
             "vertices": [
               {
